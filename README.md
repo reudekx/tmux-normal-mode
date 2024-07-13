@@ -2,7 +2,11 @@
 
 ---
 
-Tmux Normal Mode is a plugin that allows mode switching in tmux, similar to how Vim operates. This plugin was created for personal use, but feel free to copy and modify the settings as you wish. Please note that this plugin is currently under development.switching in tmux, similar to how Vim operates. This plugin is currently under development.
+Tmux Normal Mode is essentially just a collection of key bindings that introduce mode switching in tmux, similar to how Vim operates.
+
+Though it is distributed as a TPM plugin, since it's just a bunch of simple key bindings, you don't need to use TPM to install it. Simply copy the settings into your tmux configuration file and feel free to modify them as you wish.
+
+I add new key bindings occasionally whenever I have some spare time.
 
 ## Installation
 
