@@ -11,3 +11,5 @@ tmux bind -T normal l select-pane -R
 
 tmux bind -T normal C-k split-window -v -c '#{pane_current_path}'
 tmux bind -T normal C-l split-window -h -c '#{pane_current_path}'
+
+tmux bind -T normal C-x kill-pane
