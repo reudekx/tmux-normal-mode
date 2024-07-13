@@ -15,7 +15,7 @@ tmux bind -T normal C-l split-window -h -c '#{pane_current_path}'
 tmux bind -T normal C-x kill-pane
 
 tmux bind -T normal c new-window
-tmux bind -T normal C-c rename-window
+tmux bind -T normal C-c command-prompt 'rename-window %%'
 
 tmux bind -T normal n next-window
 tmux bind -T normal p previous-window
