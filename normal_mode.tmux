@@ -2,7 +2,7 @@
 
 tmux bind -n F2 set-option -g key-table normal
 tmux bind -T normal Any send-keys -X
-tmux bind -T normal i set-option -g key-table root
+tmux bind -T normal Space set-option -g key-table root
 
 tmux bind -T normal h select-pane -L
 tmux bind -T normal j select-pane -D
