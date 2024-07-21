@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-tmux bind -n F2 set-option -g key-table normal
+tmux bind -n C-u set-option -g key-table normal
 tmux bind -T normal Any send-keys -X
 tmux bind -T normal Space set-option -g key-table root
 
